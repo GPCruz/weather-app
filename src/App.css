@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+  overflow: hidden;
+}
+
+.Search-button-bar{
+  border: none;
+  height: 5vh;
+}
+.Search-button-bar>button{
+  width: 100vw;
+  border: none;
+  font-weight: 600;
+  outline: none;
+  background-color: #282c34;
+  height: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.Search-button-bar>button:hover{
+  background-color: #23272f;
+}
+.Search-button-bar>button:active{
+  background-color: #13171f;
+}
+.Search-button-bar>button:visited:focus:active:hover{
+  outline: none;
+}
+
+.Google-map{
+  width: 100%;
+  height: 95vh;  
+}
+
+
+.container-fluid, .row, .col{
+  padding: 0 ;
+  margin: 0 ;
+}
+
+.close{
+  height: 95vh ;
+  align-content: center;
+  opacity: 1;
+  padding: 20vh 0;
+  background-color: lightslategray;
+}
+.close:hover{
+  background-color: black;
+}
+.close>span{
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+}
+.Result-list{
+  padding: 0;
+  background-color: lightslategray;
+}
+.Result-list{
+  padding: 0;
+  background-color: white;
+}
+ul.City-List{
+  width: 100%;
+  height: 95vh;
+  list-style-type: none;
+  text-align: left;
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+li{
+  width: 100%;
+  display: block;
+  background-color: white;
+  padding: 5px 15px;
+  border: none;
+  color: black;
+}
+li:hover{
+  background-color: black;
+  opacity: .75;
+  color: white;
+}
+ul.Temperatures, ul.Temperatures>li{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: inherit;
+  color: inherit;
+  font-size: small;
+}
+
+
