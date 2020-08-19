@@ -81,11 +81,12 @@ class App extends Component{
               </Col>
             </Row>
             <Row>
-              <Col xs={3} style={{display: this.state.showList ? 'block' : 'none' }} className="Result-list">  
+              <Col sm={3} style={{display: this.state.showList ? 'block' : 'none' }} className="Result-list">  
                 <CityList data={this.state.searchResult} reset={this.state.showList}></CityList>
               </Col>
-              <Col xs={0.5} style={{display: this.state.showList ? 'block' : 'none' }} className="close" aria-label="Close" onClick={() =>this.hideList()}>
-                <span aria-hidden="true">&lt;</span>
+              <Col sm={0.5} style={{display: this.state.showList ? 'block' : 'none' }} className="close" aria-label="Close" onClick={() =>this.hideList()}>
+                <span class="leftArrow" aria-hidden="true">&lt;</span>
+                <span class="upArrow" aria-hidden="true">&times;</span>
               </Col>
               <Col>
                 <div className="Google-map">

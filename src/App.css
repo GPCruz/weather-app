@@ -41,7 +41,6 @@
   padding: 0 ;
   margin: 0 ;
 }
-
 .close{
   height: 95vh ;
   align-content: center;
@@ -96,5 +95,27 @@ ul.Temperatures, ul.Temperatures>li{
   color: inherit;
   font-size: small;
 }
+span.upArrow{
+  display: none;
+}
 
-
+@media (max-width: 576px) { 
+  ul.City-List{
+    height: 90vh;
+    width: 100%;
+  }
+  .close{
+    height: 5vh ;
+    width: 100%;
+    padding: 0;
+  }
+  span.upArrow{
+    display: block;
+  }
+  span.leftArrow{
+    display: none;
+  }
+  .Result-list{
+    position: relative;
+  }
+}
