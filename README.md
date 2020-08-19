@@ -1,4 +1,4 @@
-!! It is necessary to have Node.js installed to run this code. !!
+!! It's necessary to have Node.js installed to run this code. !!
 
 How to run:
 -Clone this repository to a folder on your system
